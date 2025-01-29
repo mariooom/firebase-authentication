@@ -1,21 +1,32 @@
-<<<<<<< HEAD
-# firebase-authentication
-Add a login page and add Firebase authentication to shopping app
-=======
-# shoppingapp
+# Shopping App
 
-A new Flutter project.
+Welcome to the **Shopping App**! This is a fully responsive e-commerce application built with Firebase authentication, localization support (English and Arabic), and a user-friendly interface. The app allows users to browse products, view hot offers, and add items to their cart with ease.
+
+## Features
+
+- **Firebase Authentication**: Secure user authentication using email and password.
+- **Sign In & Log In Pages**: Users can create an account or log in to an existing one. User information is stored securely in Firebase.
+- **Localization**: Supports both English and Arabic languages for a wider audience.
+- **Responsive UI**: The app is fully responsive and adapts to different screen sizes using `MediaQuery`.
+- **Home Page**:
+  - **Page View**: Displays products in a carousel-like format.
+  - **List View**: Shows hot offers in a list format.
+  - **Grid View**: Displays products in a grid layout with a cart icon. Clicking the cart icon shows a Snackbar with the message "Add to cart".
+
+## Output
+
+![Screenshot 2025-01-29 195733](https://github.com/user-attachments/assets/507e5f5a-410e-48a2-ba13-c0fd4d6ed805)
+![Screenshot 2025-01-29 194817](https://github.com/user-attachments/assets/d464f4d3-09b1-46aa-a9bc-998640bb2f11)
+![Screenshot 2025-01-29 194844](https://github.com/user-attachments/assets/87c9237c-fb2d-4eab-b0e0-8daf115a61c6)
+![Screenshot 2025-01-29 193500](https://github.com/user-attachments/assets/98c56c9f-2cd3-4475-adf0-11f37aba5451)
+![photo_5823194931857048686_y](https://github.com/user-attachments/assets/bde4d8ca-d8f0-409c-8d6e-0e02f94d08a2)
+![photo_5823194931857048687_y](https://github.com/user-attachments/assets/fca86c22-98f7-4bfc-82ba-9b8a66260393)
+![photo_5823194931857048688_y](https://github.com/user-attachments/assets/016df7e6-5bc1-407e-b258-7f7551102f5a)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> c715d20 (Create log in page and implement firebase authentication using email and password)
+- Flutter SDK installed on your machine.
+- Firebase project set up with Authentication enabled.
+- A basic understanding of Flutter and Firebase.
